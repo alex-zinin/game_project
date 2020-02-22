@@ -22,7 +22,7 @@ public class Main {
         Input_Handler input_handler = new Input_Handler();
         Entity_Handler entity_handler = new Entity_Handler(game_world);
         Drawer drawer = new Drawer(game_world);
-        game_world.player = new Player(10, 10);
+        game_world.player = new Player(10, 10, 100);
         HashMap<Character, Direction> map_direction = new HashMap<Character, Direction>();
         map_direction.put('w', Direction.UP);
         map_direction.put('s', Direction.DOWN);
