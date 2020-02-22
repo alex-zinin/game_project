@@ -29,7 +29,7 @@ public class Main {
         map_direction.put('d', Direction.RIGHT);
         map_direction.put('a', Direction.LEFT);
         int time = 0;
-        while (time < 100) {
+        while (time < 1000) {
             time++;
             try {
                 char res = input_handler.Read();

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="Basic classes has been changed">
-      <change afterPath="$PROJECT_DIR$/src/Drawer/Drawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity_Handler/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity_Handler/Entity_Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input_Handler/Input_Handler.java" afterDir="false" />
+    <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game_World/Game_World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_World/Game_World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Drawer/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drawer/Drawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582224952004</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic classes has been changed">
+      <created>1582233508766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582233508766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -83,17 +84,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basic classes has been changed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582233402315">
+    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582233508582">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582233402315" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582224960939">
+    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582233508582" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582233517504">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582224960939" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582230159884">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582233517504" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582401894465">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582230159884" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582401894465" />
   </component>
 </project>
