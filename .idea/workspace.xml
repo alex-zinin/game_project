@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="">
+    <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="1) Big world is available now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Drawer/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drawer/Drawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_World/Game_World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_World/Game_World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582404443173</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1) Entity information can be returning though the Entity. So now you can all information about every entity.&#10; 2) Entity_Information class. Indicators of position and health points have been added.">
+      <created>1582543939718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582543939718</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,17 +119,19 @@
     <MESSAGE value="Draw changes" />
     <MESSAGE value="Enemies have been added" />
     <MESSAGE value="Enemies have been added, health is inside the entity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemies have been added, health is inside the entity." />
+    <MESSAGE value="1) Entity information can be returning though the Entity. So now you can all information about every entity.&#10; 2) Entity_Information class. Indicators of position and health points have been added." />
+    <MESSAGE value="1) Big world is available now" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Big world is available now" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582404442949">
+    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582546774567">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="586" y="143" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582404442949" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582404450308">
+    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582546774567" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582546658630">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582404450308" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582546658630" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582537487936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
