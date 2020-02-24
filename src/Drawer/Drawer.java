@@ -69,13 +69,9 @@ public class Drawer {
     {
         static void Draw_Entity_Info(Entity.Entity_Information entity_info)
         {
-            System.out.print("PLAYER X = ");
-            System.out.print(entity_info.x_pos);
-            System.out.print(" Y = ");
-            System.out.print(entity_info.y_pos);
-            System.out.print("\n\rPLAYER HEALTH = ");
-            System.out.print(entity_info.health);
-            System.out.print("\n\r");
+            StringBuilder str = new StringBuilder("PLAYER X = " + entity_info.x_pos + " Y = " +
+                    entity_info.y_pos + "\n\rPLAYER HEALTH = " + entity_info.health + "\n\r");
+            System.out.print(str);
         }
 
         static int ENTITY_LINE_NUMBERS = 2;
