@@ -25,11 +25,11 @@ public class Drawer {
         }
 
 
-//        for (int i = 0; i < SCREEN_Y_SIZE; ++i) {
-//            for (int j = 0; j < SCREEN_X_SIZE; ++j) {
-//                screen[i][j] = ' ';
-//            }
-//        }
+        for (int i = 0; i < SCREEN_Y_SIZE; ++i) {
+            for (int j = 0; j < SCREEN_X_SIZE; ++j) {
+                screen[i][j] = ' ';
+            }
+        }
         System.out.print(Array_to_String(screen));
 
         for(int i = 0; i < SCREEN_Y_SIZE - 2*INDICATOR_Y_SIZE; i++) {
