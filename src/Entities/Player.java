@@ -7,4 +7,11 @@ public class Player extends Entity {
         pos_x = x;
         pos_y = y;
     }
+
+    // return private information about player
+    public Entity_Information Get_Info()
+    {
+        return new Entity_Information(pos_x, pos_y, health);
+    }
 }
+

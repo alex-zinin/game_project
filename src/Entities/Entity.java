@@ -15,6 +15,7 @@ class Point{
     int y;
 }
 
+
 public class Entity {
     public int pos_x, pos_y;
     public int health = 0;
@@ -39,5 +40,24 @@ public class Entity {
         return health;
     }
 
+    public Entity_Information Get_Entity_Info()
+    {
+        return new Entity_Information(pos_x, pos_y, GetHealth());
+    }
+
+    public class Entity_Information
+    {
+        Entity_Information(int x, int y, int health0)
+        {
+            x_pos = x;
+            y_pos = y;
+            health = health0;
+        }
+
+
+        public int x_pos;
+        public int y_pos;
+        public int health;
+    }
 
 }
