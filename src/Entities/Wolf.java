@@ -1,12 +1,13 @@
 package Entities;
 
 public class Wolf extends Enemy {
-    public Wolf(Integer x, Integer y, int health0)
+    private static final int WOLF_HEALTH = 10; //TWO BILLION
+    private static final int WOLF_DAMAGE = 20; //TWO BILLION
+
+    public Wolf(Integer x, Integer y)
     {
-        super(10); // wolf damage
-        health = health0;
-        pos_x = x;
-        pos_y = y;
+        super(x, y,WOLF_HEALTH, WOLF_DAMAGE); // wolf damage
+        type = Entity_Type.WOLF;
     }
 }
 

@@ -4,6 +4,14 @@
     <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Drawer/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drawer/Drawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Witch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity_Handler/Entity_Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity_Handler/Entity_Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_World/Game_World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_World/Game_World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582547344244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1) Big world is available now &#10;2) Bug fixes">
+      <created>1582547934543</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582547934543</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,18 +153,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="1) Big world is available now &#10;2) Bug fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582547344033">
+    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582830149181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547344033" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582547349138">
+    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582830149181" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582547939545">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547349138" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582537487936">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547939545" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582821595523">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582537487936" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582821595523" />
     <state x="668" y="346" width="641" height="413" key="git4idea.merge.GitPullDialog" timestamp="1582404936494">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -158,9 +173,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582539807118" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582403047992">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582700777015">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582403047992" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582700777015" />
   </component>
 </project>

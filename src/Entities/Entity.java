@@ -16,11 +16,27 @@ class Point{
 }
 
 
+
+
+
 public class Entity {
+    public boolean has_collisions = true; //has collisions by default
+
     public int pos_x, pos_y;
     public int health = 0;
+    public Entity_Type type;
+
+
+    public Entity(int x, int y, int health0)
+    {
+        pos_x = x;
+        pos_y = y;
+        health = health0;
+    }
 
     public void move(Direction dir){
+        int x = pos_x, y = pos_y;
+
         switch(dir)
         {
             case RIGHT: pos_x++; break;
@@ -28,6 +44,17 @@ public class Entity {
             case UP: pos_y--; break;
             case DOWN: pos_y++; break;
         }
+
+
+
+
+    }
+
+    public enum Entity_Type{
+        PLAYER,
+        WALL,
+        WOLF,
+        WITCH,
     }
 
     Point GetPos()

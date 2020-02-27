@@ -1,11 +1,12 @@
 package Entities;
 
 public class Player extends Entity {
-    public Player(Integer x, Integer y, int health1)
+    private static final int PLAYER_HEALTH = 100; //TWO BILLION
+
+    public Player(Integer x, Integer y)
     {
-        health = health1;
-        pos_x = x;
-        pos_y = y;
+        super(x, y, PLAYER_HEALTH);
+        type = Entity_Type.PLAYER;
     }
 
     // return private information about player
