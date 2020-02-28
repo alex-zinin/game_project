@@ -6,6 +6,5 @@ public class Enemy extends Entity {
         super(x, y, health);
         damage = dmg;
     }
-    int damage;
 
 }

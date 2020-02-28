@@ -41,6 +41,7 @@ public class Game_World {
 
         entities.add(new Wolf(10,10));
         entities.add(new Witch(5, 3));
+        entities.add(new First_Aid_Kit(20, 20));
 
     }
 }

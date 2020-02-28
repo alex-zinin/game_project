@@ -24,11 +24,36 @@ public class Entity_Handler {
     }
 
     public void turn(Direction dir) {
+//        game_world.player.move(dir);
+//        if(game_world.player.pos_x >= game_world.X_WORLD_SIZE - 1 ||
+//                game_world.player.pos_x <= 0 ||
+//                game_world.player.pos_y >= game_world.Y_WORLD_SIZE - 1||
+//               game_world.player.pos_y <= 0)
+//            game_world.player.move(GetReverseDirection(dir));
         game_world.player.move(dir);
-        if(game_world.player.pos_x >= game_world.X_WORLD_SIZE - 1 ||
-                game_world.player.pos_x <= 0 ||
-                game_world.player.pos_y >= game_world.Y_WORLD_SIZE - 1||
-               game_world.player.pos_y <= 0)
+
+        int entity_index = -1; //impossible index
+        for (int i = 0; i < game_world.entities.size(); ++i) {
+            if (game_world.entities.get(i).pos_x == game_world.player.pos_x &&
+                    game_world.entities.get(i).pos_y == game_world.player.pos_y) {
+                entity_index = i;
+                break;
+            }
+        }
+
+        if (entity_index == -1) {
+            return;
+        }
+
+        game_world.player.health -= game_world.entities.get(entity_index).damage;
+        if (game_world.player.health < 0) {
+            System.out.print("GAME OVER\n");
+            System.exit(0);
+        }
+
+        if (game_world.entities.get(entity_index).has_collisions == true) {
             game_world.player.move(GetReverseDirection(dir));
+        }
+
     }
 }

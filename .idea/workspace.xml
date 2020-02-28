@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bb015f-0012-44b6-9d77-7ab59eb6ed4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Entities/First_Aid_Kit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Drawer/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drawer/Drawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Witch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity_Handler/Entity_Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity_Handler/Entity_Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_World/Game_World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_World/Game_World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Y5CnKB6I8Mw5hyvqDRAINcYEy6" />
   <component name="ProjectViewState">
@@ -36,6 +35,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,6 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582223233670</updated>
+      <workItem from="1582897692750" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1582223414675</created>
@@ -130,15 +132,11 @@
       <option name="project" value="LOCAL" />
       <updated>1582547344244</updated>
     </task>
-    <task id="LOCAL-00011" summary="1) Big world is available now &#10;2) Bug fixes">
-      <created>1582547934543</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1582547934543</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -153,18 +151,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="1) Big world is available now &#10;2) Bug fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582830149181">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="390" y="87" width="804" height="818" key="CommitChangelistDialog2" timestamp="1582901939794">
+      <screen x="0" y="27" width="1280" height="716" />
     </state>
-    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582830149181" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582547939545">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="390" y="87" key="CommitChangelistDialog2/1280.0.1366.768/0.27.1280.716@0.27.1280.716" timestamp="1582901939794" />
+    <state x="631" y="115" width="804" height="818" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547344033" />
+    <state x="360" y="204" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582901960699">
+      <screen x="0" y="27" width="1280" height="716" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547939545" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582821595523">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="360" y="204" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.27.1280.716@0.27.1280.716" timestamp="1582901960699" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582547349138" />
+    <state x="402" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1582897698739">
+      <screen x="0" y="27" width="1280" height="716" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582821595523" />
+    <state x="402" y="267" key="com.intellij.ide.util.TipDialog/1280.0.1366.768/0.27.1280.716@0.27.1280.716" timestamp="1582897698739" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582537487936" />
+    <state x="417" y="435" width="447" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582897707599">
+      <screen x="0" y="27" width="1280" height="716" />
+    </state>
+    <state x="417" y="435" width="447" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1366.768/0.27.1280.716@0.27.1280.716" timestamp="1582897707599" />
     <state x="668" y="346" width="641" height="413" key="git4idea.merge.GitPullDialog" timestamp="1582404936494">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -173,9 +178,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582539807118" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582700777015">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582403047992">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582700777015" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582403047992" />
   </component>
 </project>

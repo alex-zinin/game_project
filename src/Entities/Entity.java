@@ -25,6 +25,7 @@ public class Entity {
     public int pos_x, pos_y;
     public int health = 0;
     public Entity_Type type;
+    public int damage;
 
 
     public Entity(int x, int y, int health0)
@@ -32,6 +33,7 @@ public class Entity {
         pos_x = x;
         pos_y = y;
         health = health0;
+        damage = 0;
     }
 
     public void move(Direction dir){
@@ -55,6 +57,7 @@ public class Entity {
         WALL,
         WOLF,
         WITCH,
+        KIT,
     }
 
     Point GetPos()

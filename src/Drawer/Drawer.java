@@ -19,6 +19,7 @@ public class Drawer {
         entities_textures.put(Entity.Entity_Type.WOLF, '*');
         entities_textures.put(Entity.Entity_Type.WITCH, '&');
         entities_textures.put(Entity.Entity_Type.WALL, '#');
+        entities_textures.put(Entity.Entity_Type.KIT, 'K');
         world = new char[gm.Y_WORLD_SIZE][gm.X_WORLD_SIZE];
         for(int i =0; i < gm.Y_WORLD_SIZE; i++)
         {
@@ -90,8 +91,7 @@ public class Drawer {
                 screen[i][j] =
                         world[i + screen_y_position - SCREEN_Y_SIZE/2]
                                 [j + screen_x_position - SCREEN_X_SIZE/2];
-                else
-                    screen[i][j] = '!';
+                else screen[i][j] = '!';
             }
         }
 
